@@ -1,0 +1,16 @@
+{
+  "name": "estudotypercript",
+  "type": "module",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc", 
+    "dev" : "tsx src/index.ts",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
